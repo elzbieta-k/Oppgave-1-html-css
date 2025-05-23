@@ -8,10 +8,9 @@
 
 header {
   min-width: 100svw;
-  height: 150px;
   background-color: #c9cba3;
   text-align: center;
-  padding: 30px 0;
+  padding: 30px;
 }
 
 h1 {
@@ -22,44 +21,68 @@ h1 {
 
 main {
   background-color: #e7d7c1;
-  min-height: 100svw;
-  min-width: 100svw;
   text-align: center;
-}
-
-section {
-  height: 200px;
-  width: 100%;
-  margin: 0px auto;
 }
 
 h2 {
   text-align: center;
+  padding: 30px;
+  font-size: 30px;
+}
+
+#cats h2 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  margin: 20px 20px;
 }
 
-article {
-  height: 80%;
-  width: 23%;
-  margin: 0px 10px;
-  display: inline-block;
-  text-align: center;
-}
-
-img {
-  height: 80%;
-  width: 100%;
+#dogs h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 #cats {
   background-color: #c9ada7;
 }
 
-.cat {
-  border: 2px solid;
+img {
+  width: 400px;
 }
 
+.cat {
+  margin: 0px auto;
+  padding: 20px;
+  width: 700px;
+  border: 3px dotted;
+}
+
+.cat img {
+  border: 2px solid #472d30;
+}
+
+p {
+  margin: 10px;
+  font-size: 25px;
+}
 .cat p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 10px;
+}
+
+#dogs {
+  background-color: #ba895b96;
+}
+
+.dog img {
+  border: 2px inset brown;
+}
+
+.dog {
+  margin: 0px auto;
+  padding: 20px;
+  width: 700px;
+  border: 2px solid rgb(53, 34, 10);
+}
+
+.dog p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
 }
